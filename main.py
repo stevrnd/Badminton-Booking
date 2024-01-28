@@ -64,8 +64,8 @@ def badminton():
     password = driver.find_element(By.ID, "ctl00_MainContent_InputPassword")
 
     # Populate form
-    username.send_keys("steven_diep@hotmail.co.uk")
-    password.send_keys("Ls5qXY8BHZegG6E")
+    username.send_keys("")
+    password.send_keys("")
 
     # Click login
     driver.find_element(By.ID, "ctl00_MainContent_btnLogin").click()
