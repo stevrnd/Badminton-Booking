@@ -1,5 +1,5 @@
 # What it does
-Books a single badminton court at Newham Leisure centre only on Sunday midnight for available courts on the following Saturday. 
+Book a single badminton court at Newham Leisure Centre only on Sunday at midnight for available courts on the following Saturday.
 
 Note: New bookings are always released at midnight for the next 6 days.
 
