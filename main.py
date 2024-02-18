@@ -48,7 +48,7 @@ def wait_midnight():
 
 def badminton():
     # Wait until midnight
-    wait_midnight()
+    #wait_midnight()
 
     # Maybe add sleep for one second?
 
@@ -95,7 +95,7 @@ def badminton():
     while True:
         try:
             sector += 1  # Sector 1
-            driver.find_element(By.CSS_SELECTOR, f'[data-qa-id*="{alltimes[sector]}"]').click()
+            driver.find_element(By.CSS_SELECTOR, f'[data-qa-id="button-ActivityID=NEWD306002 ResourceID=0 {alltimes[sector]}"]').click()
             break
         except NoSuchElementException:
             # Handle the case when the button is not found
